@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  --line-color: #e5e7eb;
+}
+
+@media screen and (min-width: 1170px) {
+  .date-margin {
+    margin: 0 1rem;
+  }
+}
