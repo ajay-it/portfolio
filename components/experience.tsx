@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
 import {
@@ -12,6 +12,13 @@ import { experiencesData } from "@/lib/data";
 
 export default function Experience() {
   const { ref, inView } = useSectionInView("Experience", 0.2);
+  const [animationPlayed, setAnimationPlayed] = useState(false);
+
+  useEffect(() => {
+    if (!animationPlayed && inView) {
+      setAnimationPlayed(true);
+    }
+  }, [animationPlayed, inView]);
 
   return (
     <section
@@ -24,7 +31,7 @@ export default function Experience() {
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
-              visible={inView}
+              visible={animationPlayed ? true : inView}
               contentStyle={{
                 background: "#f3f4f6",
                 boxShadow: "none",
