@@ -62,7 +62,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Ajay.</span> I'm a{" "}
         <span className="font-bold">front-end developer.</span>
         <br />I enjoy building <span className="italic">sites & apps</span>. My
-        focus is <span className="underline">React (Next.js)</span>.
+        focus is <span className="underline">React</span>.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 p-4 text-lg font-medium"
@@ -86,7 +86,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack"
-          href="/Resume.pdf"
+          href="https://drive.google.com/uc?export=download&id=1k24JgqlMGChI4nttxKucVVa-BNNnl5zx"
           download
         >
           Download Resume
@@ -95,7 +95,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/ajay-it"
           target="_blank"
         >
           <FaLinkedin />
@@ -103,7 +103,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
-          href="https://github.com"
+          href="https://github.com/ajay-it"
           target="_blank"
         >
           <FaGithubSquare />
