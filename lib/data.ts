@@ -1,5 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
+import { FaSchool } from "react-icons/fa6";
 import { LuGraduationCap } from "react-icons/lu";
 import chatAppImg from "@/public/chatApp.png";
 import todoListImg from "@/public/todoList.png";
@@ -41,12 +41,12 @@ export const experiencesData = [
     date: "08/2019-06/2023",
   },
   {
-    title: "Software Engineer",
-    location: "Mumbai, Maharashtra",
+    title: "Intermediate (10+2)",
+    location: "Bhopal, Madhya Pradesh",
     description:
-      "I worked as a web developer, developed responsive web apps with React.js, Vue.js, and Next.js. Utilized Next.js for server-side rendering and maintained clean, efficient, version-controlled code.",
-    icon: React.createElement(CgWorkAlt),
-    date: "06/2023 - 01/2024",
+      "I completed my 12th-grade education at Sardar Patel Public School. I pursued my studies in PCM stream.",
+    icon: React.createElement(FaSchool),
+    date: "04/2017- 05/2018",
   },
 ] as const;
 
