@@ -2,7 +2,7 @@ import React from "react";
 import { FaSchool } from "react-icons/fa6";
 import { LuGraduationCap } from "react-icons/lu";
 import chatAppImg from "@/public/chatApp.png";
-import todoListImg from "@/public/todoList.png";
+import crytoApp from "@/public/cryptoApp.png";
 
 export const links = [
   {
@@ -66,11 +66,20 @@ export const projectsData = [
     imageUrl: chatAppImg,
   },
   {
-    title: "ToDo List",
+    title: "Crypto App",
     description:
-      "The web app enables users to save their to-do lists for easy access and organization.",
-    tags: ["HTML", "CSS", "JavaScript", "React", "MongoDB", "Express"],
-    imageUrl: todoListImg,
+      "The web app offers real-time cryptocurrency data. Stay updated on crypto prices, market trends, and news effortlessly.",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Ant Design",
+      "API",
+      "Redux",
+      "ChartJS",
+    ],
+    imageUrl: crytoApp,
   },
 ] as const;
 
@@ -85,6 +94,7 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "MongoDB",
+  "AWS",
   "Express",
   "Framer Motion",
 ] as const;
