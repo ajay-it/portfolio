@@ -1,7 +1,7 @@
 import React from "react";
 import { FaSchool } from "react-icons/fa6";
 import { LuGraduationCap } from "react-icons/lu";
-import chatAppImg from "@/public/chatApp.png";
+import blogApp from "@/public/blogApp.png";
 import crytoApp from "@/public/cryptoApp.png";
 
 export const links = [
@@ -52,18 +52,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Chat Application",
+    title: "Blog App",
     description:
-      "The web app enables user sign-in and connects them with others via WebSocket for live chat functionality.",
+      "A full-stack blog app with React frontend, Node.js backend using MongoDB, and secure JWT authentication with Google login.",
     tags: [
       "React",
       "Express",
-      "WebSocket",
+      "Node",
       "JWT authentication",
       "MongoDB",
-      "Tailwind",
+      "TailwindCSS",
     ],
-    imageUrl: chatAppImg,
+    imageUrl: blogApp,
   },
   {
     title: "Crypto App",
