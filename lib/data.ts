@@ -1,5 +1,5 @@
 import React from "react";
-import { FaSchool } from "react-icons/fa6";
+import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import blogApp from "@/public/blogApp.png";
 import crytoApp from "@/public/cryptoApp.png";
@@ -33,20 +33,20 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Engineer",
+    location: "Mumbai, Maharashtra",
+    description:
+      "I worked as a web developer, developed responsive web apps with React.js, Vue.js, and Next.js. Utilized Next.js for server-side rendering and maintained clean, efficient, version-controlled code.",
+    icon: React.createElement(CgWorkAlt),
+    date: "06/2023 - 02/2024",
+  },
+  {
     title: "Graduation",
     location: "Uttar Pradesh, India",
     description:
       "I graduated with a Bachelor of Technology in Information Technology from Dr. A.P.J. Abdul Kalam Technical University.",
     icon: React.createElement(LuGraduationCap),
     date: "08/2019-06/2023",
-  },
-  {
-    title: "Intermediate (10+2)",
-    location: "Bhopal, Madhya Pradesh",
-    description:
-      "I completed my 12th-grade education at Sardar Patel Public School. I pursued my studies in PCM stream.",
-    icon: React.createElement(FaSchool),
-    date: "04/2017- 05/2018",
   },
 ] as const;
 
