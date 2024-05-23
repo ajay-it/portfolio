@@ -65,6 +65,7 @@ export const projectsData = [
       "Redux",
     ],
     imageUrl: blogApp,
+    webUrl: "https://blog-app-9on0.onrender.com",
   },
   {
     title: "Crypto App",
@@ -81,6 +82,7 @@ export const projectsData = [
       "ChartJS",
     ],
     imageUrl: crytoApp,
+    webUrl: "https://crypto-app-785.netlify.app",
   },
 ] as const;
 
