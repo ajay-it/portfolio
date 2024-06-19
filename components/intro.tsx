@@ -61,7 +61,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Ajay.</span> I'm a{" "}
-        <span className="font-bold">front-end developer.</span>
+        <span className="font-bold">MERN stack developer.</span>
         <br />I enjoy building <span className="italic">sites & apps</span>. My
         focus is <span className="underline">React</span>.
       </motion.h1>
@@ -87,7 +87,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="https://drive.google.com/uc?export=download&id=1k24JgqlMGChI4nttxKucVVa-BNNnl5zx"
+          href="https://drive.google.com/uc?export=download&id=19jDVIG1Kd3eSbSxNyjcWSp_iBeSmCuWS"
           download
         >
           Download Resume
