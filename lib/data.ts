@@ -38,7 +38,7 @@ export const experiencesData = [
     description:
       "I worked as a web developer, developed responsive web apps with React.js, Vue.js, and Next.js. Utilized Next.js for server-side rendering and maintained clean, efficient, version-controlled code.",
     icon: React.createElement(CgWorkAlt),
-    date: "02/2023 - 02/2024",
+    date: "06/2023 - 02/2024",
   },
   {
     title: "Graduation",
